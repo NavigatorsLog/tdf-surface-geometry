@@ -1,0 +1,38 @@
+{
+  "version": "v2_no_early_stopping",
+  "n_configs": 200,
+  "runtime_minutes": 152.52415379683177,
+  "wd_sensitivity": {
+    "mean_spread": 0.07595833333333335,
+    "max_spread": 0.29999999999999993,
+    "configs_gt_5pct": 108,
+    "configs_gt_10pct": 55
+  },
+  "prediction_r2": {
+    "linear_4feat": 0.19615669612660536,
+    "random_forest": 0.15185604394959826
+  },
+  "feature_importances": {
+    "log_ID": 0.08553538375445587,
+    "log_Curv": 0.06163300209820563,
+    "log_DCV": 0.13536562658865772,
+    "log_CR": 0.09664855445045027,
+    "ID\u00d7Curv": 0.07781201572098112,
+    "ID\u00d7DCV": 0.2902285681687167,
+    "Curv\u00d7DCV": 0.14510903642277379,
+    "ID\u00b2": 0.06734338541274477,
+    "Curv\u00b2": 0.040324427383014075
+  },
+  "adaptive_vs_fixed": {
+    "best_fixed_wd": 1.0,
+    "best_fixed_mean": 0.8675694444444445,
+    "adaptive_mean": 0.89625,
+    "oracle_mean": 0.9018402777777778,
+    "oracle_capture_pct": 83.68794326241135,
+    "wins": 40,
+    "ties": 19,
+    "losses": 1,
+    "mean_gain": 0.028680555555555487,
+    "tracks_oracle_r": 0.9674400946709432
+  }
+}
