@@ -1,0 +1,461 @@
+{
+  "n_manifolds": 20,
+  "runtime_minutes": 12.104547945658366,
+  "hidden_dims": [
+    64,
+    48,
+    32
+  ],
+  "epochs": 200,
+  "default_fixed_mean": 0.9104166666666668,
+  "surface_gate_mean": 0.920625,
+  "oracle_mean": 0.9154166666666669,
+  "oracle_capture_pct": 204.16666666666057,
+  "wins": 10,
+  "ties": 8,
+  "losses": 2,
+  "mean_gain": 0.010208333333333264,
+  "tracks_oracle_r": 0.9800296795601036,
+  "per_manifold": [
+    {
+      "desc": "ID=11 Cv=0.7",
+      "id_dim": 11,
+      "curvature": 0.7328380918521115,
+      "default_fixed": 0.9166666666666666,
+      "oracle": 0.9083333333333333,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9333333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.14501455426216125,
+        0.007569419220089912,
+        0.0001674395753070712
+      ],
+      "surface_multipliers": [
+        0.45907325424481954,
+        0.3395999983686137,
+        0.3341314929803322
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.025000000000000022
+    },
+    {
+      "desc": "ID=5 Cv=0.1",
+      "id_dim": 5,
+      "curvature": 0.11361094507143397,
+      "default_fixed": 0.9083333333333333,
+      "oracle": 0.9416666666666667,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9125,
+      "surface_base_wd": 0.001,
+      "surface_curvatures": [
+        0.12124123424291611,
+        0.05952649191021919,
+        0.003253052243962884
+      ],
+      "surface_multipliers": [
+        0.43575088816959695,
+        0.3805887682237683,
+        0.3364003262981089
+      ],
+      "beats_default": false,
+      "gap_to_oracle": 0.029166666666666674
+    },
+    {
+      "desc": "ID=4 Cv=0.7",
+      "id_dim": 4,
+      "curvature": 0.6866718347738971,
+      "default_fixed": 0.9916666666666667,
+      "oracle": 0.9958333333333333,
+      "oracle_wd": 0.001,
+      "surface_gate": 0.9958333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.018876129761338234,
+        0.0006298357038758695,
+        1.2266636076674331e-05
+      ],
+      "surface_multipliers": [
+        0.3481265466552266,
+        0.33447051294579827,
+        0.33401780018523347
+      ],
+      "beats_default": false,
+      "gap_to_oracle": 0.0
+    },
+    {
+      "desc": "ID=7 Cv=1.1",
+      "id_dim": 7,
+      "curvature": 1.1011838186528748,
+      "default_fixed": 0.9083333333333333,
+      "oracle": 0.8958333333333334,
+      "oracle_wd": 0.01,
+      "surface_gate": 0.9125,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.09682843834161758,
+        0.023150600492954254,
+        0.0008566576289013028
+      ],
+      "surface_multipliers": [
+        0.41303369254691163,
+        0.3514054620176574,
+        0.3346369401580162
+      ],
+      "beats_default": false,
+      "gap_to_oracle": -0.016666666666666607
+    },
+    {
+      "desc": "ID=10 Cv=0.2",
+      "id_dim": 10,
+      "curvature": 0.22027542936487485,
+      "default_fixed": 0.825,
+      "oracle": 0.8375,
+      "oracle_wd": 0.01,
+      "surface_gate": 0.8583333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.15128110349178314,
+        0.018438022583723068,
+        0.00076208112295717
+      ],
+      "surface_multipliers": [
+        0.4654261496232119,
+        0.3477922112838259,
+        0.33456753599056144
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.02083333333333326
+    },
+    {
+      "desc": "ID=3 Cv=2.7",
+      "id_dim": 3,
+      "curvature": 2.740379163370977,
+      "default_fixed": 0.9208333333333333,
+      "oracle": 0.9291666666666667,
+      "oracle_wd": 0.1,
+      "surface_gate": 0.9375,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.028236113488674164,
+        0.0035869418643414974,
+        9.071231033885852e-05
+      ],
+      "surface_multipliers": [
+        0.3553467748386019,
+        0.33664675528546856,
+        0.33407527127271874
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.008333333333333304
+    },
+    {
+      "desc": "ID=3 Cv=0.2",
+      "id_dim": 3,
+      "curvature": 0.22679609540561096,
+      "default_fixed": 0.9916666666666667,
+      "oracle": 0.9875,
+      "oracle_wd": 1e-05,
+      "surface_gate": 0.9958333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.006654351484030485,
+        0.0045735533349215984,
+        0.00010633408965077251
+      ],
+      "surface_multipliers": [
+        0.3389191370754229,
+        0.3373759843799293,
+        0.3340867173246356
+      ],
+      "beats_default": false,
+      "gap_to_oracle": -0.008333333333333304
+    },
+    {
+      "desc": "ID=20 Cv=0.1",
+      "id_dim": 20,
+      "curvature": 0.11810748001279686,
+      "default_fixed": 0.9458333333333333,
+      "oracle": 0.9416666666666667,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9333333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.1765514761209488,
+        0.002269728109240532,
+        0.0002398174983682111
+      ],
+      "surface_multipliers": [
+        0.4919493707551224,
+        0.33567562617594704,
+        0.3341845363910119
+      ],
+      "beats_default": false,
+      "gap_to_oracle": 0.008333333333333304
+    },
+    {
+      "desc": "ID=31 Cv=0.5",
+      "id_dim": 31,
+      "curvature": 0.48757788252593176,
+      "default_fixed": 0.95,
+      "oracle": 0.9625,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9583333333333334,
+      "surface_base_wd": 0.001,
+      "surface_curvatures": [
+        0.22728699445724487,
+        0.10399793833494186,
+        0.006560889538377523
+      ],
+      "surface_multipliers": [
+        0.5498512113846524,
+        0.41957955211434345,
+        0.33884967306652236
+      ],
+      "beats_default": true,
+      "gap_to_oracle": 0.004166666666666652
+    },
+    {
+      "desc": "ID=13 Cv=0.2",
+      "id_dim": 13,
+      "curvature": 0.16668531762025482,
+      "default_fixed": 0.9541666666666667,
+      "oracle": 0.9666666666666667,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9708333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.15733793377876282,
+        0.0007318538264371455,
+        1.8140674001188017e-05
+      ],
+      "surface_multipliers": [
+        0.4716499741419392,
+        0.33454535698077936,
+        0.33402210329672666
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.004166666666666652
+    },
+    {
+      "desc": "ID=26 Cv=0.1",
+      "id_dim": 26,
+      "curvature": 0.14057174270540132,
+      "default_fixed": 0.7166666666666667,
+      "oracle": 0.7291666666666666,
+      "oracle_wd": 0.01,
+      "surface_gate": 0.7625,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.21523155272006989,
+        0.017291126772761345,
+        0.0002502793213352561
+      ],
+      "surface_multipliers": [
+        0.5355038149139325,
+        0.34691849349805776,
+        0.3341922042151335
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.033333333333333326
+    },
+    {
+      "desc": "ID=5 Cv=1.1",
+      "id_dim": 5,
+      "curvature": 1.0964557181626435,
+      "default_fixed": 0.9166666666666666,
+      "oracle": 0.9208333333333333,
+      "oracle_wd": 0.01,
+      "surface_gate": 0.9333333333333333,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.053030554205179214,
+        0.013813335448503494,
+        0.00045428157318383455
+      ],
+      "surface_multipliers": [
+        0.3752050627049226,
+        0.34428247048496946,
+        0.33434175953908474
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.012500000000000067
+    },
+    {
+      "desc": "ID=31 Cv=0.4",
+      "id_dim": 31,
+      "curvature": 0.3675011569010708,
+      "default_fixed": 0.8958333333333334,
+      "oracle": 0.8916666666666667,
+      "oracle_wd": 1e-05,
+      "surface_gate": 0.9,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.19586855173110962,
+        0.00243525137193501,
+        0.0002576220140326768
+      ],
+      "surface_multipliers": [
+        0.5132389616215778,
+        0.3357975058042935,
+        0.33419758602819155
+      ],
+      "beats_default": false,
+      "gap_to_oracle": -0.008333333333333304
+    },
+    {
+      "desc": "ID=11 Cv=0.2",
+      "id_dim": 11,
+      "curvature": 0.2020486428874579,
+      "default_fixed": 0.9583333333333334,
+      "oracle": 0.9708333333333333,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9625,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.1498219072818756,
+        0.004439685959368944,
+        0.00015696465561632067
+      ],
+      "surface_multipliers": [
+        0.4639390393579392,
+        0.3372769471223451,
+        0.3341238169520126
+      ],
+      "beats_default": false,
+      "gap_to_oracle": 0.008333333333333304
+    },
+    {
+      "desc": "ID=18 Cv=0.4",
+      "id_dim": 18,
+      "curvature": 0.37809324671501676,
+      "default_fixed": 0.9,
+      "oracle": 0.8958333333333334,
+      "oracle_wd": 0.01,
+      "surface_gate": 0.9041666666666667,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.1870936155319214,
+        0.00380219635553658,
+        0.00011523366265464574
+      ],
+      "surface_multipliers": [
+        0.5034561264325705,
+        0.3368057206885138,
+        0.3340932382024288
+      ],
+      "beats_default": false,
+      "gap_to_oracle": -0.008333333333333304
+    },
+    {
+      "desc": "ID=31 Cv=1.2",
+      "id_dim": 31,
+      "curvature": 1.16865683556893,
+      "default_fixed": 0.775,
+      "oracle": 0.7833333333333333,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.7791666666666667,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.22356384992599487,
+        0.011397786438465118,
+        0.00033201693440787494
+      ],
+      "surface_multipliers": [
+        0.5453796765945895,
+        0.34246337988503456,
+        0.3342521185354726
+      ],
+      "beats_default": false,
+      "gap_to_oracle": 0.004166666666666652
+    },
+    {
+      "desc": "ID=39 Cv=0.5",
+      "id_dim": 39,
+      "curvature": 0.5372182236460233,
+      "default_fixed": 0.9083333333333333,
+      "oracle": 0.9083333333333333,
+      "oracle_wd": 0.001,
+      "surface_gate": 0.9,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.22454120218753815,
+        0.0030019802507013083,
+        0.00016991555457934737
+      ],
+      "surface_multipliers": [
+        0.5465499546338295,
+        0.33621514012503245,
+        0.33413330740540564
+      ],
+      "beats_default": false,
+      "gap_to_oracle": 0.008333333333333304
+    },
+    {
+      "desc": "ID=7 Cv=1.3",
+      "id_dim": 7,
+      "curvature": 1.3074612041703382,
+      "default_fixed": 0.9333333333333333,
+      "oracle": 0.9375,
+      "oracle_wd": 0.05,
+      "surface_gate": 0.9416666666666667,
+      "surface_base_wd": 0.01,
+      "surface_curvatures": [
+        0.09115999191999435,
+        0.001958169974386692,
+        0.00035748540540225804
+      ],
+      "surface_multipliers": [
+        0.40793068496362206,
+        0.3354463367758472,
+        0.3342707893220331
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.004166666666666652
+    },
+    {
+      "desc": "ID=5 Cv=0.2",
+      "id_dim": 5,
+      "curvature": 0.23281688294645708,
+      "default_fixed": 0.9791666666666666,
+      "oracle": 0.9875,
+      "oracle_wd": 1e-05,
+      "surface_gate": 0.9875,
+      "surface_base_wd": 0.001,
+      "surface_curvatures": [
+        0.060689158737659454,
+        0.0478903166949749,
+        0.0029403846710920334
+      ],
+      "surface_multipliers": [
+        0.38156048236101175,
+        0.370998962428544,
+        0.3361697239116031
+      ],
+      "beats_default": true,
+      "gap_to_oracle": 0.0
+    },
+    {
+      "desc": "ID=10 Cv=0.8",
+      "id_dim": 10,
+      "curvature": 0.7635022934372196,
+      "default_fixed": 0.9125,
+      "oracle": 0.9166666666666666,
+      "oracle_wd": 0.01,
+      "surface_gate": 0.9333333333333333,
+      "surface_base_wd": 0.1,
+      "surface_curvatures": [
+        0.01253589428961277,
+        1.4090537661104463e-06,
+        4.1961669694501325e-07
+      ],
+      "surface_multipliers": [
+        0.34331926037993676,
+        0.3340098464521101,
+        0.33400912164838054
+      ],
+      "beats_default": true,
+      "gap_to_oracle": -0.01666666666666672
+    }
+  ]
+}
