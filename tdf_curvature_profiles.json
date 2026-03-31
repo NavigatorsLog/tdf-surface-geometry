@@ -1,0 +1,211 @@
+{
+  "runtime_minutes": 153.98855159282684,
+  "results": {
+    "MNIST": {
+      "MLP": {
+        "accuracy": 0.9773,
+        "profiles": {
+          "input": {
+            "curvature_mean": 0.28154364228248596,
+            "curvature_std": 0.05078713968396187,
+            "intrinsic_dim": 11.654428321103902,
+            "ambient_dim": 784.0,
+            "n_samples": 2000.0
+          },
+          "layer_0": {
+            "curvature_mean": 0.21041882038116455,
+            "curvature_std": 0.05013951286673546,
+            "intrinsic_dim": 8.295187522192688,
+            "ambient_dim": 256.0,
+            "n_samples": 2000.0
+          },
+          "layer_1": {
+            "curvature_mean": 0.14576096832752228,
+            "curvature_std": 0.033865075558423996,
+            "intrinsic_dim": 7.088883690727327,
+            "ambient_dim": 128.0,
+            "n_samples": 2000.0
+          },
+          "layer_2": {
+            "curvature_mean": 0.07842563837766647,
+            "curvature_std": 0.025753503665328026,
+            "intrinsic_dim": 5.758498459428229,
+            "ambient_dim": 64.0,
+            "n_samples": 2000.0
+          },
+          "layer_3": {
+            "curvature_mean": 0.05367358773946762,
+            "curvature_std": 0.022728752344846725,
+            "intrinsic_dim": 5.138501261351774,
+            "ambient_dim": 32.0,
+            "n_samples": 2000.0
+          },
+          "output": {
+            "curvature_mean": 0.04195199906826019,
+            "curvature_std": 0.02392618916928768,
+            "intrinsic_dim": 4.7182070632318664,
+            "ambient_dim": 10.0,
+            "n_samples": 2000.0
+          }
+        }
+      },
+      "CNN": {
+        "accuracy": 0.9895,
+        "profiles": {
+          "input": {
+            "curvature_mean": 0.2758268415927887,
+            "curvature_std": 0.060238707810640335,
+            "intrinsic_dim": 11.805989601292824,
+            "ambient_dim": 784.0,
+            "n_samples": 2000.0
+          },
+          "conv1": {
+            "curvature_mean": 0.24309319257736206,
+            "curvature_std": 0.05984743312001228,
+            "intrinsic_dim": 9.845877690783768,
+            "ambient_dim": 6272.0,
+            "n_samples": 2000.0
+          },
+          "conv2": {
+            "curvature_mean": 0.2367916852235794,
+            "curvature_std": 0.057199932634830475,
+            "intrinsic_dim": 9.747197103082646,
+            "ambient_dim": 3136.0,
+            "n_samples": 2000.0
+          },
+          "conv3": {
+            "curvature_mean": 0.21269874274730682,
+            "curvature_std": 0.052968528121709824,
+            "intrinsic_dim": 9.25262646557596,
+            "ambient_dim": 576.0,
+            "n_samples": 2000.0
+          },
+          "fc1": {
+            "curvature_mean": 0.21113401651382446,
+            "curvature_std": 0.045443203300237656,
+            "intrinsic_dim": 9.326449646690442,
+            "ambient_dim": 128.0,
+            "n_samples": 2000.0
+          },
+          "fc2": {
+            "curvature_mean": 0.12905916571617126,
+            "curvature_std": 0.032070890069007874,
+            "intrinsic_dim": 7.115546510998576,
+            "ambient_dim": 64.0,
+            "n_samples": 2000.0
+          },
+          "output": {
+            "curvature_mean": 0.09073663502931595,
+            "curvature_std": 0.03090510703623295,
+            "intrinsic_dim": 5.808006811012194,
+            "ambient_dim": 10.0,
+            "n_samples": 2000.0
+          }
+        }
+      }
+    },
+    "CIFAR-10": {
+      "MLP": {
+        "accuracy": 0.5289,
+        "profiles": {
+          "input": {
+            "curvature_mean": 0.2961314916610718,
+            "curvature_std": 0.037866950035095215,
+            "intrinsic_dim": 22.146777759559424,
+            "ambient_dim": 3072.0,
+            "n_samples": 2000.0
+          },
+          "layer_0": {
+            "curvature_mean": 0.2860683500766754,
+            "curvature_std": 0.034504231065511703,
+            "intrinsic_dim": 15.542854442914189,
+            "ambient_dim": 256.0,
+            "n_samples": 2000.0
+          },
+          "layer_1": {
+            "curvature_mean": 0.25758951902389526,
+            "curvature_std": 0.036454275250434875,
+            "intrinsic_dim": 13.704708485191823,
+            "ambient_dim": 128.0,
+            "n_samples": 2000.0
+          },
+          "layer_2": {
+            "curvature_mean": 0.19070324301719666,
+            "curvature_std": 0.031740400940179825,
+            "intrinsic_dim": 10.201197670248924,
+            "ambient_dim": 64.0,
+            "n_samples": 2000.0
+          },
+          "layer_3": {
+            "curvature_mean": 0.1276020109653473,
+            "curvature_std": 0.03392404690384865,
+            "intrinsic_dim": 7.690051504218354,
+            "ambient_dim": 32.0,
+            "n_samples": 2000.0
+          },
+          "output": {
+            "curvature_mean": 0.08529642969369888,
+            "curvature_std": 0.028142591938376427,
+            "intrinsic_dim": 6.637320542517075,
+            "ambient_dim": 10.0,
+            "n_samples": 2000.0
+          }
+        }
+      },
+      "CNN": {
+        "accuracy": 0.7077,
+        "profiles": {
+          "input": {
+            "curvature_mean": 0.28551504015922546,
+            "curvature_std": 0.03552844375371933,
+            "intrinsic_dim": 22.12201249818395,
+            "ambient_dim": 3072.0,
+            "n_samples": 2000.0
+          },
+          "conv1": {
+            "curvature_mean": 0.3602062165737152,
+            "curvature_std": 0.03124355897307396,
+            "intrinsic_dim": 34.79448324427235,
+            "ambient_dim": 8192.0,
+            "n_samples": 2000.0
+          },
+          "conv2": {
+            "curvature_mean": 0.36169037222862244,
+            "curvature_std": 0.031368229538202286,
+            "intrinsic_dim": 35.104935703100644,
+            "ambient_dim": 4096.0,
+            "n_samples": 2000.0
+          },
+          "conv3": {
+            "curvature_mean": 0.35454604029655457,
+            "curvature_std": 0.030578022822737694,
+            "intrinsic_dim": 25.334352150863477,
+            "ambient_dim": 1024.0,
+            "n_samples": 2000.0
+          },
+          "fc1": {
+            "curvature_mean": 0.3257385194301605,
+            "curvature_std": 0.030554044991731644,
+            "intrinsic_dim": 19.910107880770134,
+            "ambient_dim": 128.0,
+            "n_samples": 2000.0
+          },
+          "fc2": {
+            "curvature_mean": 0.1984182596206665,
+            "curvature_std": 0.02975236065685749,
+            "intrinsic_dim": 11.528024089249602,
+            "ambient_dim": 64.0,
+            "n_samples": 2000.0
+          },
+          "output": {
+            "curvature_mean": 0.10376772284507751,
+            "curvature_std": 0.02902478724718094,
+            "intrinsic_dim": 7.779159364152618,
+            "ambient_dim": 10.0,
+            "n_samples": 2000.0
+          }
+        }
+      }
+    }
+  }
+}

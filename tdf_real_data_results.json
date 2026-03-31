@@ -1,0 +1,81 @@
+{
+  "runtime_minutes": 1983.3971045215924,
+  "results": {
+    "MNIST": {
+      "MLP": {
+        "Fixed": {
+          "acc": 0.9827,
+          "best_bwd": 0.0001
+        },
+        "ExpDecay": {
+          "acc": 0.9836,
+          "best_bwd": 1e-05
+        },
+        "LinDecay": {
+          "acc": 0.9834,
+          "best_bwd": 0.0001
+        },
+        "Reverse": {
+          "acc": 0.9821,
+          "best_bwd": 0.0001
+        }
+      },
+      "CNN": {
+        "Fixed": {
+          "acc": 0.9932,
+          "best_bwd": 1e-05
+        },
+        "ExpDecay": {
+          "acc": 0.9929,
+          "best_bwd": 0.0001
+        },
+        "LinDecay": {
+          "acc": 0.9933,
+          "best_bwd": 1e-05
+        },
+        "Reverse": {
+          "acc": 0.9931,
+          "best_bwd": 0.001
+        }
+      }
+    },
+    "CIFAR-10": {
+      "MLP": {
+        "Fixed": {
+          "acc": 0.5454,
+          "best_bwd": 0.001
+        },
+        "ExpDecay": {
+          "acc": 0.5403,
+          "best_bwd": 1e-05
+        },
+        "LinDecay": {
+          "acc": 0.5422,
+          "best_bwd": 1e-05
+        },
+        "Reverse": {
+          "acc": 0.545,
+          "best_bwd": 0.001
+        }
+      },
+      "CNN": {
+        "Fixed": {
+          "acc": 0.7587,
+          "best_bwd": 0.001
+        },
+        "ExpDecay": {
+          "acc": 0.76,
+          "best_bwd": 0.001
+        },
+        "LinDecay": {
+          "acc": 0.7654,
+          "best_bwd": 0.001
+        },
+        "Reverse": {
+          "acc": 0.7613,
+          "best_bwd": 0.001
+        }
+      }
+    }
+  }
+}
