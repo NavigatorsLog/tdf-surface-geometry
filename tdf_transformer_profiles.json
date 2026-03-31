@@ -1,0 +1,118 @@
+{
+  "runtime_minutes": 295.42666212717694,
+  "model": "TinyViT",
+  "config": {
+    "embed_dim": 128,
+    "n_blocks": 6,
+    "n_heads": 4,
+    "ff_dim": 256,
+    "patch_size": 4,
+    "dropout": 0.1,
+    "n_params": 811146,
+    "epochs": 30
+  },
+  "test_accuracy": 0.8041,
+  "profiles_cls": {
+    "embedding": {
+      "curvature_mean": 0.3463287055492401,
+      "curvature_std": 0.024620210751891136,
+      "intrinsic_dim": 30.92923548172266,
+      "ambient_dim": 8320.0,
+      "n_samples": 2000.0
+    },
+    "block_0_cls": {
+      "curvature_mean": 0.19629913568496704,
+      "curvature_std": 0.03954262286424637,
+      "intrinsic_dim": 10.475770103698093,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "block_1_cls": {
+      "curvature_mean": 0.25392070412635803,
+      "curvature_std": 0.02944987080991268,
+      "intrinsic_dim": 14.030771315821982,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "block_2_cls": {
+      "curvature_mean": 0.28075867891311646,
+      "curvature_std": 0.029857469722628593,
+      "intrinsic_dim": 15.774880149171928,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "block_3_cls": {
+      "curvature_mean": 0.2880379557609558,
+      "curvature_std": 0.029194485396146774,
+      "intrinsic_dim": 13.85870652256121,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "block_4_cls": {
+      "curvature_mean": 0.2879347503185272,
+      "curvature_std": 0.029560191556811333,
+      "intrinsic_dim": 14.69521691626852,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "block_5_cls": {
+      "curvature_mean": 0.2703307569026947,
+      "curvature_std": 0.031483154743909836,
+      "intrinsic_dim": 13.360908319229678,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "pre_head": {
+      "curvature_mean": 0.25317537784576416,
+      "curvature_std": 0.032450661063194275,
+      "intrinsic_dim": 12.178462086595566,
+      "ambient_dim": 128.0,
+      "n_samples": 2000.0
+    },
+    "output": {
+      "curvature_mean": 0.1062471866607666,
+      "curvature_std": 0.028727618977427483,
+      "intrinsic_dim": 6.714788161895924,
+      "ambient_dim": 10.0,
+      "n_samples": 2000.0
+    }
+  },
+  "profiles_full": {
+    "block_0_full": {
+      "curvature_mean": 0.39918336272239685,
+      "curvature_std": 0.019786451011896133,
+      "intrinsic_dim": 37.870469280674584,
+      "ambient_dim": 8320.0
+    },
+    "block_1_full": {
+      "curvature_mean": 0.40030619502067566,
+      "curvature_std": 0.025325624272227287,
+      "intrinsic_dim": 33.1997047669145,
+      "ambient_dim": 8320.0
+    },
+    "block_2_full": {
+      "curvature_mean": 0.39921796321868896,
+      "curvature_std": 0.029604293406009674,
+      "intrinsic_dim": 31.83690796437582,
+      "ambient_dim": 8320.0
+    },
+    "block_3_full": {
+      "curvature_mean": 0.40301382541656494,
+      "curvature_std": 0.030041178688406944,
+      "intrinsic_dim": 31.696331340427644,
+      "ambient_dim": 8320.0
+    },
+    "block_4_full": {
+      "curvature_mean": 0.4027635455131531,
+      "curvature_std": 0.028372079133987427,
+      "intrinsic_dim": 31.760773521220234,
+      "ambient_dim": 8320.0
+    },
+    "block_5_full": {
+      "curvature_mean": 0.3968079388141632,
+      "curvature_std": 0.02843012847006321,
+      "intrinsic_dim": 29.25248329831795,
+      "ambient_dim": 8320.0
+    }
+  }
+}
