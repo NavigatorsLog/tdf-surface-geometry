@@ -1,0 +1,136 @@
+{
+  "runtime_so_far": 98.66921478509903,
+  "completed_runs": 30,
+  "total_runs": 30,
+  "device": "cuda",
+  "batch_size": 128,
+  "base_wd": 0.001,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1337
+  ],
+  "detailed": {
+    "Fixed_seed42": 0.7565,
+    "LinDecay_seed42": 0.7563,
+    "Reverse_seed42": 0.7566,
+    "Random_1_seed42": 0.7497,
+    "Random_2_seed42": 0.7559,
+    "Random_5_seed42": 0.7629,
+    "Fixed_seed123": 0.7595,
+    "LinDecay_seed123": 0.7592,
+    "Reverse_seed123": 0.7519,
+    "Random_1_seed123": 0.747,
+    "Random_2_seed123": 0.7553,
+    "Random_5_seed123": 0.7561,
+    "Fixed_seed456": 0.762,
+    "LinDecay_seed456": 0.7555,
+    "Reverse_seed456": 0.7481,
+    "Random_1_seed456": 0.7648,
+    "Random_2_seed456": 0.7508,
+    "Random_5_seed456": 0.7588,
+    "Fixed_seed789": 0.7503,
+    "LinDecay_seed789": 0.7458,
+    "Reverse_seed789": 0.7385,
+    "Random_1_seed789": 0.7345,
+    "Random_2_seed789": 0.7513,
+    "Random_5_seed789": 0.7429,
+    "Fixed_seed1337": 0.7435,
+    "LinDecay_seed1337": 0.7452,
+    "Reverse_seed1337": 0.75,
+    "Random_1_seed1337": 0.7535,
+    "Random_2_seed1337": 0.7415,
+    "Random_5_seed1337": 0.7557
+  },
+  "summary": {
+    "Fixed": {
+      "mean": 0.7543599999999999,
+      "std": 0.006690171896147343,
+      "min": 0.7435,
+      "max": 0.762,
+      "n": 5,
+      "values": [
+        0.7565,
+        0.7595,
+        0.762,
+        0.7503,
+        0.7435
+      ]
+    },
+    "LinDecay": {
+      "mean": 0.7524,
+      "std": 0.0057699220098715275,
+      "min": 0.7452,
+      "max": 0.7592,
+      "n": 5,
+      "values": [
+        0.7563,
+        0.7592,
+        0.7555,
+        0.7458,
+        0.7452
+      ]
+    },
+    "Reverse": {
+      "mean": 0.74902,
+      "std": 0.005970393621864472,
+      "min": 0.7385,
+      "max": 0.7566,
+      "n": 5,
+      "values": [
+        0.7566,
+        0.7519,
+        0.7481,
+        0.7385,
+        0.75
+      ]
+    },
+    "Random_1": {
+      "mean": 0.7499,
+      "std": 0.009803876784211431,
+      "min": 0.7345,
+      "max": 0.7648,
+      "n": 5,
+      "values": [
+        0.7497,
+        0.747,
+        0.7648,
+        0.7345,
+        0.7535
+      ]
+    },
+    "Random_2": {
+      "mean": 0.7509600000000001,
+      "std": 0.005155036372325591,
+      "min": 0.7415,
+      "max": 0.7559,
+      "n": 5,
+      "values": [
+        0.7559,
+        0.7553,
+        0.7508,
+        0.7513,
+        0.7415
+      ]
+    },
+    "Random_5": {
+      "mean": 0.7552800000000001,
+      "std": 0.006701760962612744,
+      "min": 0.7429,
+      "max": 0.7629,
+      "n": 5,
+      "values": [
+        0.7629,
+        0.7561,
+        0.7588,
+        0.7429,
+        0.7557
+      ]
+    }
+  },
+  "runtime_minutes": 98.66924061377843,
+  "verdict": "REJECTED: Non-uniform WD does not reliably beat Fixed",
+  "completed": true
+}
